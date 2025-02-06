@@ -4,8 +4,8 @@
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 
-const char* ssid = "Cheriyanirappel Wi-Fi";   // Your WiFi SSID
-const char* password = "Bijucmani";           // Your WiFi Password
+const char* ssid = "your_wifi_name";   // Your WiFi SSID
+const char* password = "your_wifi_password";           // Your WiFi Password
 const char* serverUrl = "http://192.168.1.7:8000/api/data";  // Your server URL
 
 Adafruit_MPU6050 mpu;
@@ -13,7 +13,7 @@ Adafruit_MPU6050 mpu;
 void setup() {
   Serial.begin(115200);
   while (!Serial)
-    delay(10); // will pause Zero, Leonardo, etc until serial console opens
+    delay(10); 
 
   // WiFi Connection
   Serial.println("Connecting to WiFi...");
