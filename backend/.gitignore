@@ -1,0 +1,12 @@
+# Node modules  
+node_modules/  
+
+# Dependency lock files  
+package-lock.json  
+yarn.lock  
+
+# Environment variables  
+.env  
+
+# Build files  
+dist/  
