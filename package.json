@@ -1,0 +1,22 @@
+{
+  "name": "eps32-server-test",
+  "version": "1.0.0",
+  "description": "A test API for esp32",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GeorgeET15",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "depcheck": "^1.4.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mongodb": "^4.4.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.7.4",
+    "uuid": "^8.3.2"
+  }
+}

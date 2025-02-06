@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sensor Data</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sensor Data Dashboard</h1>
+    </header>
+
+    <div class="container">
+      <div class="data-display" id="dataDisplay">
+        <p class="loading" id="loadingMessage" style="display: none">
+          Loading...
+        </p>
+        <p class="error" id="errorMessage" style="display: none"></p>
+        <div class="card">
+          <p id="temperature" class="data-item"></p>
+          <p id="humidity" class="data-item"></p>
+        </div>
+        <div class="card">
+          <p id="accelerationX" class="data-item"></p>
+          <p id="accelerationY" class="data-item"></p>
+          <p id="accelerationZ" class="data-item"></p>
+        </div>
+        <div class="card">
+          <p id="gyroX" class="data-item"></p>
+          <p id="gyroY" class="data-item"></p>
+          <p id="gyroZ" class="data-item"></p>
+        </div>
+        <div class="card">
+          <p id="timestamp" class="data-item"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
